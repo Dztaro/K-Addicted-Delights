@@ -1,0 +1,19 @@
+header.header-container {
+    @include flexbox (row, center, inherit, inherit);
+
+    .header-items {
+        @include flexbox (row, center, inherit, inherit);
+
+        li {
+            list-style-type: none;
+            padding: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            @extend %fuente-navbar
+        }
+
+
+    }
+}

@@ -1,0 +1,13 @@
+main {
+    div {
+        @include flexbox (row, center, center, inherit);
+
+        div {
+            @include flexbox (Column, center, center, inherit);
+        }
+
+        img {
+            width: 80%;
+        }
+    }
+}

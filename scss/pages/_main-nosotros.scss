@@ -1,0 +1,13 @@
+main.container-main {
+    @include flexbox (column, center, center, inherit);
+
+    h2 {
+        @extend %fuente-subtitulo
+    }
+
+    p {
+        @extend %fuente-texto
+    }
+
+
+}
