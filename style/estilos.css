@@ -32,11 +32,8 @@ main.container-main p {
 }
 
 body {
-  background-image: url(../images/bg-k.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(white, black);
   background-attachment: fixed;
-  background-position: center;
 }
 
 header.header-container {
